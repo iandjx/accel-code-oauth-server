@@ -60,7 +60,8 @@ export default class HomePage extends Component {
           ) : (
             <div>
               <h1>You have login succcessfully!</h1>
-              <h2>Welcome {this.state.user.name}!</h2>
+              {console.log(this.state.user)}
+              {/* <h2>Welcome {this.state.user.name}!</h2> */}
             </div>
           )}
         </div>
