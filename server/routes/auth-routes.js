@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const passport = require("passport");
-const CLIENT_HOME_PAGE_URL = "http://intense-lake-28460.herokuapp.com/";
+const CLIENT_HOME_PAGE_URL = "https://intense-lake-28460.herokuapp.com/";
 
 // when login is successful, retrieve user info
 router.get("/login/success", (req, res) => {
