@@ -6,14 +6,14 @@ const passport = require("passport");
 const passportSetup = require("./config/passport-setup");
 const session = require("express-session");
 const authRoutes = require("./routes/auth-routes");
-const keys = require("./config/keys");
+// const keys = require("./config/keys");
 const cors = require("cors");
 const cookieParser = require("cookie-parser"); // parse cookie header
 
 app.use(
   cookieSession({
     name: "session",
-    keys: [keys.COOKIE_KEY],
+    keys: ["thisappisawesome"],
     maxAge: 24 * 60 * 60 * 100,
   })
 );
