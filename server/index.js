@@ -29,7 +29,7 @@ app.use(passport.session());
 // set up cors to allow us to accept requests from our client
 app.use(
   cors({
-    origin: "https://intense-lake-28460.herokuapp.com/", // allow to server to accept request from different origin
+    origin: "http://intense-lake-28460.herokuapp.com/", // allow to server to accept request from different origin
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true, // allow session cookie from browser to pass through
   })
