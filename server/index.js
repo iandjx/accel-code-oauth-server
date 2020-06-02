@@ -1,7 +1,7 @@
 const cookieSession = require("cookie-session");
 const express = require("express");
 const app = express();
-const port = 4001;
+const port = process.env.PORT || 4001;
 const passport = require("passport");
 const passportSetup = require("./config/passport-setup");
 const session = require("express-session");
